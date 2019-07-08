@@ -1,19 +1,19 @@
-React Boilerplate made with Babel & Webpack 4
+Typescript React Boilerplate made with Babel, Webpack 4, and Typescript 3.5.2
 
 ## Features
+* Typescript
 * Axios
 * React-router
 * Scss & Sass
 * Import images
-* js & jsx file format
 
 ## Commands
 
 **To install**
 ------
 ```
-git clone https://github.com/GabrielvonPlaten/React-Boilerplate.git
-cd React-Boilerplate
+git clone https://github.com/GabrielvonPlaten/ts-react-boilerplate.git
+cd ts-react-boilerplate
 npm / yarn install
 ```
 serve
