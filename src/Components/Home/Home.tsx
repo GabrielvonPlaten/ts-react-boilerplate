@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Logo from "../../Styles/images/logo.svg";
 import './Home.sass';
 
 const Home: React.FC = () => {
@@ -6,7 +7,11 @@ const Home: React.FC = () => {
 
   return (
     <div className="app">
-      <h1 className="title">Hello React!</h1>
+      <img
+        className="app__logo" 
+        src={Logo}
+      />
+      <h1 className="title">Hello React + Typescript!</h1>
       <button onClick={() => setData(count + 1)}>+</button>
       <button onClick={() => setData(count - 1)}>-</button>
       <button onClick={() => setData(0)}>Reset</button>
