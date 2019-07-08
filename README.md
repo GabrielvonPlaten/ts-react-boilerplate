@@ -16,13 +16,12 @@ git clone https://github.com/GabrielvonPlaten/ts-react-boilerplate.git
 cd ts-react-boilerplate
 npm / yarn install
 ```
-serve
+
+dev-server
 ------
 ```
-npm / yarn run serve
+npm / yarn run dev-server
 ```
-
-
 Local server will start at **http://localhost:8080**
 
 build
@@ -31,11 +30,6 @@ build
 npm / yarn run build
 ```
 
-dev-server
-------
-```
-npm / yarn run dev-server
-```
 
 
 
