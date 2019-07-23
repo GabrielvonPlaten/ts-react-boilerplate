@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "@types/node": "^12.6.1",
